@@ -1,0 +1,189 @@
+@charset "utf-8";
+header {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #056839;
+    color: #FFFFFF;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-weight: lighter;
+    text-align: center;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+h3 {
+
+}
+
+nav {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#logo {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 25%;
+    height: 5%;
+    display: inline;
+    padding-top: 2px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.nav-selection {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: #056839;
+}
+.nav-menu {
+    display: inline;
+    font-size: 90%;
+    top: 140px;
+    position: absolute;
+}
+.main-content-info {
+    width: 45%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #FFAA02;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: left;
+    position: absolute;
+    left: 150px;
+    font-size: 100%;
+    height: auto;
+    background-color: hsla(152,92%,21%,0.80);
+    top: 300px;
+    border: 2px solid hsla(40,100%,51%,1.00);
+}
+.main-content-text  {
+    opacity: 1;
+}
+
+.main-image {
+    float: right;
+    clear: both;
+    border: 5px double hsla(152,92%,21%,1.00);
+    width: 50%;
+}
+main {
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 180px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer {
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #056839;
+    color: #FFFFFF;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-weight: lighter;
+    text-align: center;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+body {
+
+}
+a:link {
+    color: #F2911B;
+	text-decoration: none
+}
+a:hover {
+    color: #077336;
+		text-decoration: none
+}
+a:visited {
+    color: #8C704F;
+		text-decoration: none
+}
+a:active {
+    color: #31593B;
+		text-decoration: none
+}
+
+@media only screen and (max-width: 1374px){
+
+  .nav-menu {
+      font-size: 70%;
+
+    }
+
+}
+
+@media only screen and (max-width: 1098px){
+
+  .nav-menu {
+      font-size: 60%;
+
+  }
+
+}
+
+@media only screen and (max-width: 980px){
+  nav {
+        width: 90%;
+        height: 300px;
+
+      }
+
+  .nav-menu {
+      font-size: 75%;
+      top: 75px;
+  }
+
+  .nav-selection {
+      display: block;
+      padding: 10px 0px;
+
+    }
+
+    #logo {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 25%;
+        height: 25%;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width: 650px){
+
+
+
+}
+
+
+}
